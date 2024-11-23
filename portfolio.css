@@ -303,3 +303,44 @@ span {
         
     }
 }
+
+
+
+/* ------Break Point------- */
+
+@media screen and (max-width:1200px) {
+    body {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    header {
+        padding: 2rem 4%;
+    }
+
+    section {
+        padding: 10rem 4% 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 200;
+    }
+ 
+    .home-img .img-box{
+        width: 35rem;
+        height: 35rem;
+        margin-top: 50%;
+    }
+    .navbar {
+    
+    }
+
+    .bloc {
+        display: none;
+    }
+}
